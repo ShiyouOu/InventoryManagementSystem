@@ -526,6 +526,15 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input{
+  margin-left: 20px;
+}
+
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 5rem;

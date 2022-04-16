@@ -37,7 +37,32 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                
+
+            </div>
+            <div class="col-lg-8">
+                <form action = "{{ url_for('add_product') }}" method = "POST">
+                    <div class="form-group">
+                        <p>Product Name: </p>
+                        <input type = "text" name = "nm" />
+                    </div>
+
+                    <div class="form-group">
+                        <p>Description: </p>
+                        <input type = "text" name = "desc" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <p>Quantity: </p>
+                        <input type = "number" name = "quantity" />
+                    </div>
+
+                    <div class="form-group">
+                        <p>Check-In Date: </p>
+                        <input type = "date" name = "checkin" />
+                    </div>
+                    
+                    <input class="btn btn-primary" type="Submit" value = "Submit" />
+                </form>
             </div>
         </div>
     </div>
