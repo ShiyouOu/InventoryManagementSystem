@@ -118,6 +118,14 @@ body {
     padding: 20px;
 }
 
+.col-lg-8{
+  margin-bottom: 200px;
+}
+
+.col-lg-8 img{
+  width: 100%;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -626,6 +634,7 @@ progress {
   margin-bottom: 0;
 }
 
+
 .blockquote-footer {
   margin-top: -1rem;
   margin-bottom: 1rem;
@@ -708,6 +717,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
