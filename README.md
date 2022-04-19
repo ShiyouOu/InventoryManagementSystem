@@ -15,6 +15,8 @@ The front end of the inventory management system includes the following pages:
 <img width="863" alt="Capture2" src="https://user-images.githubusercontent.com/54868441/163692075-e6732afd-f225-4649-b479-e9e514ae45fe.PNG">
 
 A responsive and reliable backend built using Flask that stores all inventory information in a sqlite database.
+<img width="1155" alt="Capture" src="https://user-images.githubusercontent.com/54868441/164018263-e0704646-bfc9-4a38-9dd3-0c1f4e55719a.PNG">
+
 ##
 
 The site is currently deployed at the address: http://13.57.210.216:5000/
